@@ -129,7 +129,7 @@ module.exports = {
     optimization: optimization(),
     devServer: {
         contentBase: './build',
-        port: 8080, // порт
+        port:3000, // порт
         open: true, // открывать браузер при запуске
         hot: true, // при добавлении новых модулей сразу их подключать
         compress: true, // gzip компрессия
